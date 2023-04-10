@@ -1,19 +1,23 @@
 .about{
     text-align: center;
-   
-    
-    
+padding: 20px;
 }
 
 .about h1 {
     font-size: 2em;
     margin-bottom: 1em;
+    color: #E33D33;
+    text-shadow: 1px 1px 3px #7e7e7e;
 }
 
 .about p {
-    padding: 0.5em;
+    padding: 1em;
     max-width: 500px;
     margin: 0 auto 1.5em;
     line-height: 1.4;
     text-align: justify;
+}
+
+.about img{
+
 }

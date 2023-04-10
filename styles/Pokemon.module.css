@@ -1,4 +1,5 @@
 .pokemon_container {
+    padding: 2em;
     text-align: center;
     background-image: url('/images/pokemon-in-the-wild.png');
     background-repeat: no-repeat;
@@ -7,9 +8,9 @@
 }
 .pokemon_container_card {
     margin: auto;
-    padding: 2em 1em;
-    margin-bottom: 2em;
-    width: 23%;
+    padding: 10px 1em;
+    
+    max-width: 320px;
     border-radius: 1em;
     border: 2px solid #E33D33;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
@@ -18,17 +19,17 @@
   }
   
   .title {
-    font-size: 2.5em;
+    font-size: 2.0em;
     text-transform: capitalize;
-    text-shadow: #aab;
+    text-shadow: 1px 1px 1px #000;
     color: #fff;
     padding: 0.3em;
-    margin: 0.8em auto;
+    margin: 0.2em auto;
     width: 200px;
   }
   
   .pokemon_container h3 {
-    margin: 0.6em auto;
+    margin: 0.3em auto;
     font-size: 1.2em;
   }
   
@@ -139,4 +140,15 @@
   
   .data_height {
     border-right: 1px solid #ccc;
+  }
+
+  @media screen and (max-width: 320px){
+
+    .pokemon_container {
+        
+        
+    }
+
+    
+    
   }

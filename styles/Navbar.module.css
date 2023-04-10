@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 1.2em;
+    padding: 1em 0.4em;
     /* git branch -M main */
     background-color: #333;
     color: #fff;
@@ -24,8 +24,8 @@
     list-style: none;
 }
 
-.link_items li {
-    margin-right: 1.3em;
+.link_items li:nth-child(1){
+    margin-right: 20px;
 }
 
 .link_items a {
@@ -39,4 +39,5 @@
 .link_items a:hover {
     border-color: #fff;
 } 
+
 

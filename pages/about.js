@@ -7,8 +7,8 @@ export default function About() {
       <h1>Sobre o Projeto</h1>
       <Image
         src="/images/charizard.png"
-        width={300}
-        height={300}
+        width={280}
+        height={280}
         alt="Charizard"
       />
       <p>
