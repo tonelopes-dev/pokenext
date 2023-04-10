@@ -1,5 +1,7 @@
 .about{
     text-align: center;
+   
+    
     
 }
 
@@ -9,8 +11,9 @@
 }
 
 .about p {
-    
+    padding: 0.5em;
     max-width: 500px;
     margin: 0 auto 1.5em;
     line-height: 1.4;
+    text-align: justify;
 }
