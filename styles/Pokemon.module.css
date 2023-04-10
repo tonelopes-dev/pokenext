@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 85vh;
 }
 .pokemon_container_card {
     margin: auto;
@@ -140,15 +141,4 @@
   
   .data_height {
     border-right: 1px solid #ccc;
-  }
-
-  @media screen and (max-width: 320px){
-
-    .pokemon_container {
-        
-        
-    }
-
-    
-    
   }
