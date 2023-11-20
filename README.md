@@ -17,7 +17,7 @@ O projeto Pokedex foi denvolvido para o estudo do Framework Next.JS. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto pokedex" src="/assets/preview.jpg" width="100%">
+  <img alt="projeto pokedex" src="/assets/capa-pokedex.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
